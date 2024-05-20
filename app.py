@@ -12,7 +12,7 @@ logging.basicConfig(filename='youtube_data.log', level=logging.INFO, format='%(a
 
 app = Flask(__name__,static_folder='static')
 
-api_key = 'AIzaSyCpK2B9RKV2GiAEfNxfV2RW6TP4fpEZlg8'
+api_key = '<API KEY>'
 
 logging.info('Initializing the application.')
 print("run on localhost:5000")
