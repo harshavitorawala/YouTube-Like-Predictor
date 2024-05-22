@@ -190,7 +190,7 @@ def predict_form():
     logging.info('Accessed the /predict route')
     return render_template('predict.html')
 
-filename = "D:\\SEM 5\\PYTHON PROJECT\\YTLIKE_PREDICT\\video_details.csv"
+filename = "<PATH>\video_details.csv"
 df = pd.read_csv(filename)
 
 logging.info('Loaded data from file: %s', filename)
